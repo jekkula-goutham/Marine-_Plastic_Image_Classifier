@@ -3,14 +3,24 @@
 *.mp4
 *.m4v
 
-# Datasets (keep out of GitHub)
+# Datasets / images
 Plastic_train/
 Plastic_test/
 data/
 dataset/
 datasets/
 
-# Junk
-.ipynb_checkpoints/
+# Models
+models/
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Python / notebooks / OS
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
 .DS_Store
+.venv/
+venv/
