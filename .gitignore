@@ -1,0 +1,16 @@
+# Large media
+*.mov
+*.mp4
+*.m4v
+
+# Datasets (keep out of GitHub)
+Plastic_train/
+Plastic_test/
+data/
+dataset/
+datasets/
+
+# Junk
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
