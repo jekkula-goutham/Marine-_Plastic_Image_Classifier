@@ -1,6 +1,6 @@
-🌊 Marine Plastic Pollution Detection using Deep Learning
+#### 🌊 Marine Plastic Pollution Detection using Deep Learning
 CNN vs ResNet50 Transfer Learning
-Project Overview
+Project Overview ####
 
 Marine plastic pollution poses a serious threat to ocean ecosystems and biodiversity. This project develops a deep learning–based image classification system capable of automatically identifying plastic waste in underwater images.
 
