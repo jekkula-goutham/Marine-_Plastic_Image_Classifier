@@ -1,18 +1,18 @@
 🌊 Marine Plastic Pollution Detection using Deep Learning
 CNN vs ResNet50 Transfer Learning
-📌 Project Overview
+Project Overview
 
 Marine plastic pollution poses a serious threat to ocean ecosystems and biodiversity. This project develops a deep learning–based image classification system capable of automatically identifying plastic waste in underwater images.
 
 The project compares two deep learning approaches:
 
-✅ Custom Convolutional Neural Network (CNN)
+* Custom Convolutional Neural Network (CNN)
 
-✅ ResNet50 Transfer Learning Model
+* ResNet50 Transfer Learning Model
 
 The goal is to evaluate performance differences between training a model from scratch and leveraging pretrained deep learning architectures.
 
-🎯 Objectives
+-> Objectives
 
 Detect plastic waste in underwater images
 
@@ -24,11 +24,11 @@ Evaluate models using classification metrics and confusion matrices
 
 Build an end-to-end deep learning pipeline
 
-📂 Dataset
+-> Dataset
 
 Dataset Source (Kaggle):
 
-👉 https://www.kaggle.com/datasets/surajit651/souvikdataset
+* https://www.kaggle.com/datasets/surajit651/souvikdataset
 
 Classes
 
@@ -47,9 +47,9 @@ Plastic test/
     └── No-Plastic/
 
 
-⚠️ Dataset is not included in this repository due to GitHub size limitations.
+"Dataset is not included in this repository due to GitHub size limitations."
 
-🛠️ Technologies Used
+* Technologies Used
 
 Python
 
@@ -69,7 +69,7 @@ PIL (Image Processing)
 
 Jupyter Notebook
 
-🔎 Exploratory Data Analysis (EDA)
+* Exploratory Data Analysis (EDA)
 
 The project begins with dataset inspection:
 
@@ -81,7 +81,7 @@ Random sample image visualization
 
 Bar plots were generated to verify dataset balance across training and testing sets.
 
-🧹 Data Preprocessing & Augmentation
+* Data Preprocessing & Augmentation
 
 Images were resized to:
 
@@ -111,7 +111,7 @@ ImageDataGenerator(
 
 This improves model robustness and prevents overfitting.
 
-🧠 Model Architectures
+ Model Architectures
 1️ Custom CNN Model
 
 Architecture:
@@ -137,9 +137,7 @@ Loss Function:
 Binary Crossentropy
 
 
-Optimizer:
-
-Adam
+Optimizer: Adam
 
 2️ ResNet50 Transfer Learning
 
@@ -166,7 +164,7 @@ Learning Rate:
 
 1e-4 (Adam Optimizer)
 
-📊 Model Training
+* Model Training
 
 Both models were trained for:
 
@@ -176,7 +174,7 @@ Batch size: 32
 
 Validation accuracy comparison was plotted to analyze performance differences.
 
-📈 Model Evaluation
+* Model Evaluation
 
 Evaluation metrics:
 
@@ -198,7 +196,7 @@ confusion_matrix()
 
 Confusion matrices were visualized using Seaborn heatmaps.
 
-🧪 Prediction System
+* Prediction System
 
 The project includes a prediction pipeline that:
 
@@ -223,7 +221,7 @@ marine_pollution_resnet50.h5
 
 This allows reuse without retraining.
 
-📊 Key Insights
+*Key Insights
 
 Transfer learning significantly improves performance with limited datasets.
 
@@ -243,12 +241,12 @@ https://www.kaggle.com/datasets/surajit651/souvikdataset
 
 Open:
 
-marine_plastic_classification.ipynb
+marine_plastic_classification(1).ipynb
 
 
 Run all cells sequentially.
 
-🌍 Real-World Applications
+*Real-World Applications
 
 Marine ecosystem monitoring
 
@@ -260,7 +258,7 @@ Environmental sustainability analytics
 
 Smart coastal surveillance
 
-🎓 Skills Demonstrated
+ *Skills Demonstrated
 
 Deep Learning Model Development
 
@@ -281,3 +279,4 @@ Author
 Goutham Jekkula
 MSc Data Science — Atlantic Technological University
 GitHub: https://github.com/jekkula-goutham
+<img width="451" height="703" alt="image" src="https://github.com/user-attachments/assets/f2238554-631f-459a-a1bd-4f3c16d69279" />
